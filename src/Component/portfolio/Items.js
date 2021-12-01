@@ -9,7 +9,6 @@ const Items = ({items}) => {
                 {
                     items.map((elem) => {
                         const {name, image, category} = elem;
-
                         return(
                             <>
                                 <div className="col-lg-6 folio_effect">
@@ -35,7 +34,7 @@ const Items = ({items}) => {
                         )
                     })
                 }
-            </div>
+            </div>  
         </>
     );
 }

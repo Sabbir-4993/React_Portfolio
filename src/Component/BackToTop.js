@@ -23,7 +23,7 @@ class BackToTop extends React.Component{
     render() {
         return(
             <>
-                <a href="javascript:void(0);" id="backtotop"><i className="icofont-bubble-up"></i></a>
+                <a href="#" id="backtotop"><i className="icofont-bubble-up"></i></a>
             </>
         );
     }

@@ -6,7 +6,7 @@ import Filter from "../Component/portfolio/Filter";
 
 const allCatValues = [ ... new Set(List.map((curElem) =>  curElem.category)), "all"];
 
-console.log(allCatValues);
+// console.log(allCatValues);
 
 const Portfolio = () => {
     const [items, setItems] = useState(List);

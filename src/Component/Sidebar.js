@@ -25,7 +25,7 @@ class Sidebar extends React.Component{
         return(
             <>
                 <div className="sidebar">
-                    <a href="javascript:void(0);" className="widget_closer"><i className="icofont-close-line"></i></a>
+                    <a href="#" className="widget_closer"><i className="icofont-close-line"></i></a>
                     <div className="widget widget-search">
                         <h3 className="widget_title">Search</h3>
                         <form method="post" action="#" className="search_form">
