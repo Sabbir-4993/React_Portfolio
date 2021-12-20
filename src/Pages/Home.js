@@ -29,7 +29,6 @@ class Home extends React.Component{
                       {/*Service Price Table*/}
                       <Price_Table />
 
-
                       {/*Hobby & Language*/}
                       <Hobby_Language />
 

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 class Price_Table extends React.Component{
     render() {
@@ -19,8 +20,10 @@ class Price_Table extends React.Component{
                             </p>
                             <h2>$27.00</h2>
                             <h6>per project</h6>
-                            <a href="contact.html" className="btt_link"><i
-                                className="icon icon-OpenedLock"></i><span>Let's Start</span></a>
+                            <Link to="/contact" className="btt_link">
+                                <i className="icon icon-OpenedLock"></i>
+                                <span>Let's Start</span>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -32,8 +35,10 @@ class Price_Table extends React.Component{
                             </p>
                             <h2>$47.00</h2>
                             <h6>per project</h6>
-                            <a href="contact.html" className="btt_link"><i
-                                className="icon icon-OpenedLock"></i><span>Let's Start</span></a>
+                            <Link to="/contact" className="btt_link">
+                                <i className="icon icon-OpenedLock"></i>
+                                <span>Let's Start</span>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -45,8 +50,10 @@ class Price_Table extends React.Component{
                             </p>
                             <h2>$97.00</h2>
                             <h6>per project</h6>
-                            <a href="contact.html" className="btt_link"><i
-                                className="icon icon-OpenedLock"></i><span>Let's Start</span></a>
+                            <Link to="/contact" className="btt_link">
+                                <i className="icon icon-OpenedLock"></i>
+                                <span>Let's Start</span>
+                            </Link>
                         </div>
                     </div>
                 </div>

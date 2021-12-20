@@ -27,11 +27,11 @@ class Hobby_Language extends React.Component{
                     <div className="col-lg-7">
                         <h2 className="sectionTitle">Languages</h2>
                         <div className="languageDiv">
-                            <div className="ldInner profLevel7">
+                            <div className="ldInner profLevel9">
                                 <h5>English</h5>
                                 <span></span><span></span><span></span><span></span><span></span>
                                 <span></span><span></span><span></span><span></span><span></span>
-                                <i>7/10</i>
+                                <i>9/10</i>
                             </div>
                             <div className="ldInner profLevel6">
                                 <h5>German</h5>
@@ -50,12 +50,6 @@ class Hobby_Language extends React.Component{
                                 <span></span><span></span><span></span><span></span><span></span>
                                 <span></span><span></span><span></span><span></span><span></span>
                                 <i>9/10</i>
-                            </div>
-                            <div className="ldInner profLevel7">
-                                <h5>Hindi</h5>
-                                <span></span><span></span><span></span><span></span><span></span>
-                                <span></span><span></span><span></span><span></span><span></span>
-                                <i>7/10</i>
                             </div>
                         </div>
                     </div>

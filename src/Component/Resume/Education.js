@@ -5,7 +5,7 @@ import {db} from "../../firebase-config";
 function Education (){
 
     const [education, setEducation] = useState([]);
-    const educationCollectionRef = collection(db, "educations", "descending");
+    const educationCollectionRef = collection(db, "educations");
 
     useEffect(() => {
         const getEducation = async () => {

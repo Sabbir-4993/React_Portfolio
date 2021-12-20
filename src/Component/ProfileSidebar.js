@@ -1,6 +1,6 @@
 import React from "react";
 
-import home_01 from "../assets/images/home_01/1.jpg"
+import home_01 from "../assets/images/sabbir.png"
 import {ExternalLink} from "react-external-link";
 import {Link} from "react-router-dom";
 
@@ -18,17 +18,28 @@ class ProfileSidebar extends React.Component{
                                 <polygon points="0 20, 100 20, 15 120" opacity=".8"></polygon>
                             </svg>
                             <div className="psContent">
-                                <h3>Linda M. Bellamy</h3>
-                                <span>Sr. Developer</span>
+                                <h3>Sabbir Ahmed</h3>
+                                <span>Web Developer</span>
                             </div>
                         </div>
                         <div className="psPhoto">
                             <img src={home_01} alt="" />
                             <div className="psSocial">
-                                <ExternalLink href="https://facebook.com" target="_blank" className="fac"><i className="icofont-facebook"></i></ExternalLink>
-                                <ExternalLink href="https://twitter.com" target="_blank" className="twi"><i className="icofont-twitter"></i></ExternalLink>
-                                <ExternalLink href="https://dribbble.com/" target="_blank" className="dri"><i className="icofont-dribbble"></i></ExternalLink>
-                                <ExternalLink href="https://www.instagram.com/" target="_blank" className="ins"><i className="icofont-instagram"></i></ExternalLink>
+                                <ExternalLink href="https://github.com/Sabbir-4993/" target="_blank" className="git" data-toggle="tooltip" data-placement="top" title="GitHub">
+                                    <i className="icofont-github"></i>
+                                </ExternalLink>
+                                <ExternalLink href="https://www.linkedin.com/in/sabbir-ahmed-968984126/" target="_blank" className="link" data-toggle="tooltip" data-placement="top" title="linkedin">
+                                    <i className="icofont-linkedin"></i>
+                                </ExternalLink>
+                                <ExternalLink href="https://facebook.com/sabbir.ahmed.0507/" target="_blank" className="fac" data-toggle="tooltip" data-placement="top" title="facebook">
+                                    <i className="icofont-facebook"></i>
+                                </ExternalLink>
+                                <ExternalLink href="https://www.instagram.com/sabbir_4993/" target="_blank" className="ins" data-toggle="tooltip" data-placement="top" title="instagram">
+                                    <i className="icofont-instagram"></i>
+                                </ExternalLink>
+                                <ExternalLink href="https://www.fiverr.com/sabbirahmed0507" target="_blank" className="fac" data-toggle="tooltip" data-placement="top" title="fiverr">
+                                    <i className="icofont-code"></i>
+                                </ExternalLink>
                             </div>
                         </div>
                         <div className="psSkills">
@@ -36,21 +47,21 @@ class ProfileSidebar extends React.Component{
                                 <div className="pssbCount">85.</div>
                                 <h5>Backend Development</h5>
                                 <div className="pssbBars">
-                                    <div className="pssbBar" style={{width: '0%'}}></div>
+                                    <div className="pssbBar" style={{width: '85%'}}></div>
                                 </div>
                             </div>
                             <div className="pssBox" data-count="92">
                                 <div className="pssbCount">92.</div>
                                 <h5>Frontend Development</h5>
                                 <div className="pssbBars">
-                                    <div className="pssbBar gr2" style={{width: '0%'}}></div>
+                                    <div className="pssbBar gr2" style={{width: '92%'}}></div>
                                 </div>
                             </div>
                             <div className="pssBox" data-count="71">
                                 <div className="pssbCount">71.</div>
                                 <h5>Illustration</h5>
                                 <div className="pssbBars">
-                                    <div className="pssbBar gr3" style={{width: '0%'}}></div>
+                                    <div className="pssbBar gr3" style={{width: '71%'}}></div>
                                 </div>
                             </div>
                         </div>
