@@ -1,0 +1,20 @@
+/* ABOUT ME */
+	Name: Sabbir Ahmed
+	Description: Web developer with 3+ years of experience in design and developing user interfaces, testing, debugging staff within ecommerce and web applications technologies. My experience developing ecommerce and web applications is primarily PHP Framework, but I am also comfortable using PHP (Laravel & WordPress) and JavaScript framework (Vue Js, React Js). I have proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies in ways that save time and improve user experience.
+	Contact: sabbir5795@gmail.com
+	Phone: +8801521463599
+	Address: Basabo, Dhaka, BD - 1214
+
+/* Social Media */
+	Fiverr: https://www.fiverr.com/sabbirahmed0507
+    Facebook: https://www.fb.com/sabbir.ahmed.0507
+    Instagram: https://www.instagram.com/sabbir_4993/
+	linkedin: https://www.linkedin.com/in/sabbir-ahmed-968984126/
+	GitHub: https://github.com/Sabbir-4993/
+
+/* SITE */
+	Last update:2021/12/21
+	Language: English
+	Doctype:HTML5
+	IDE: PHP Storm, FileZilla, Illustrator
+	Language: JS, React JS, HTML5, CSS, Firebase
