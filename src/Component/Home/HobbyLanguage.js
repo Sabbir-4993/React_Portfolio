@@ -1,6 +1,6 @@
 import React from "react";
 
-class Hobby_Language extends React.Component{
+class HobbyLanguage extends React.Component{
     render() {
         return(
             <>
@@ -45,11 +45,11 @@ class Hobby_Language extends React.Component{
                                 <span></span><span></span><span></span><span></span><span></span>
                                 <i>4/10</i>
                             </div>
-                            <div className="ldInner profLevel9">
+                            <div className="ldInner profLevel10">
                                 <h5>Bangla</h5>
                                 <span></span><span></span><span></span><span></span><span></span>
                                 <span></span><span></span><span></span><span></span><span></span>
-                                <i>9/10</i>
+                                <i>10/10</i>
                             </div>
                         </div>
                     </div>
@@ -59,4 +59,4 @@ class Hobby_Language extends React.Component{
     }
 }
 
-export default Hobby_Language;
+export default HobbyLanguage;

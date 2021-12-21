@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {collection, getDocs} from "firebase/firestore";
 import {db} from "../../firebase-config";
+import {ExternalLink} from "react-external-link";
 
 function Education (){
 
@@ -29,11 +30,10 @@ function Education (){
                                 <div className="card">
                                     <div className="card-header" id="ea_01">
                                         <h2 className="mb-0">
-                                            <a className="" href="#" data-toggle="collapse" data-target="#ea_col_01"
-                                               aria-expanded="true" aria-controls="ea_col_01">
+                                            <ExternalLink className="" href="#" data-toggle="collapse" data-target="#ea_col_01" aria-expanded="true" aria-controls="ea_col_01">
                                                 <i className="icon icon-Medal"></i>
                                                 <span>{edu.name}</span>
-                                            </a>
+                                            </ExternalLink>
                                         </h2>
                                     </div>
                                     <div id="ea_col_01" className="collapse show" aria-labelledby="ea_01"

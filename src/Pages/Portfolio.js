@@ -4,7 +4,7 @@ import List from "../Component/portfolio/PortfolioList";
 import Items from "../Component/portfolio/Items";
 import Filter from "../Component/portfolio/Filter";
 
-const allCatValues = [ ... new Set(List.map((curElem) =>  curElem.category)), "all"];
+const allCatValues = [ ...new Set(List.map((curElem) =>  curElem.category)), "all"];
 
 // console.log(allCatValues);
 

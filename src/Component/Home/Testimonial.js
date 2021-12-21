@@ -8,6 +8,7 @@ import Author_3 from "../../assets/images/author/3.jpg";
 class Testimonial extends React.Component{
 
     componentDidMount() {
+
     }
 
     render() {
@@ -20,7 +21,7 @@ class Testimonial extends React.Component{
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="testimonialSlider owl-carousel">
+                        <div className="testimonialSlider">
                             <div className="singleTestimonial">
                                 <div className="testiImg">
                                     <img src={Author_1} alt="Author" />
@@ -37,7 +38,7 @@ class Testimonial extends React.Component{
                                     <div className="tesAuthor"><h5>Edward Johnson,</h5>
                                         <h6>themewar.com</h6></div>
                                 </div>
-                            </div>
+                            </div> <br/>
                             <div className="singleTestimonial">
                                 <div className="testiImg">
                                     <img src={Author_2} alt="Author" />
@@ -54,7 +55,7 @@ class Testimonial extends React.Component{
                                     <div className="tesAuthor"><h5>Mosharof Khondoker,</h5>
                                         <h6>themewar.com</h6></div>
                                 </div>
-                            </div>
+                            </div> <br/>
                             <div className="singleTestimonial">
                                 <div className="testiImg">
                                     <img src={Author_3} alt="Author" />

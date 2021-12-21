@@ -1,12 +1,13 @@
 import React from "react";
-import About_info from "../Component/Home/About_info";
-import Career_Objective from "../Component/Home/Career_Objective";
-import Service_List from "../Component/Home/Service_List";
+import AboutInfo from "../Component/Home/AboutInfo";
+import CareerObjective from "../Component/Home/CareerObjective";
+import ServiceList from "../Component/Home/ServiceList";
 // import Testimonial from "../Component/Home/Testimonial";
 import Experience from "../Component/Home/Experience";
 import Clients from "../Component/Home/Clients";
-import Price_Table from "../Component/Home/Price_Table";
-import Hobby_Language from "../Component/Home/Hobby_Language";
+import PriceTable from "../Component/Home/PriceTable";
+import HobbyLanguage from "../Component/Home/HobbyLanguage";
+import Testimonial from "../Component/Home/Testimonial";
 
 class Home extends React.Component{
     render() {
@@ -14,28 +15,21 @@ class Home extends React.Component{
           <>
               <section className="comonSection aboutSection">
                   <div className="container-fluid">
-                      {/*About Info*/}
-                      <About_info />
 
-                      {/*Short Bio*/}
-                      <Career_Objective />
+                      <AboutInfo />
 
-                      {/*Service List*/}
-                      <Service_List />
+                      <CareerObjective />
 
-                      {/*Testimonial*/}
+                      <ServiceList />
+
                       {/*<Testimonial />*/}
 
-                      {/*Service Price Table*/}
-                      <Price_Table />
+                      {/*<PriceTable />*/}
 
-                      {/*Hobby & Language*/}
-                      <Hobby_Language />
+                       <HobbyLanguage />
 
-                      {/*Client*/}
                       <Clients />
 
-                      {/*Experience*/}
                       <Experience />
                   </div>
               </section>

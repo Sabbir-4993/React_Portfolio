@@ -4,7 +4,7 @@ import { db } from "../../firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 import {ExternalLink} from "react-external-link";
 
-function About_info() {
+function AboutInfo() {
         const [users, setUsers] = useState([]);
         const usersCollectionRef = collection(db, "users");
 
@@ -80,4 +80,4 @@ function About_info() {
         );
     }
 
-export default About_info;
+export default AboutInfo;

@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-class Service_List extends React.Component{
+class ServiceList extends React.Component{
     render() {
         return(
             <>
@@ -17,10 +17,7 @@ class Service_List extends React.Component{
                                 <i className="icon icon-Settings"></i>
                             </div>
                             <h3><Link to="/">Web Development</Link></h3>
-                            <h5>from scratch</h5>
-                            <p>
-                                Sunt explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.
-                            </p>
+                            <h5>Frontend & Backend</h5>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -28,11 +25,8 @@ class Service_List extends React.Component{
                             <div className="i_div">
                                 <i className="icon icon-Pen"></i>
                             </div>
-                            <h3><Link to="/">UX recherche</Link></h3>
-                            <h5>data collection</h5>
-                            <p>
-                                Sunt explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.
-                            </p>
+                            <h3><Link to="/">UI UX design</Link></h3>
+                            <h5>Web & App</h5>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -40,23 +34,8 @@ class Service_List extends React.Component{
                             <div className="i_div">
                                 <i className="icon icon-Layers"></i>
                             </div>
-                            <h3><Link to="/">UI design</Link></h3>
-                            <h5>creativ design</h5>
-                            <p>
-                                Sunt explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="icon_box_02">
-                            <div className="i_div">
-                                <i className="icon icon-Phone"></i>
-                            </div>
-                            <h3><Link to="/">Application</Link></h3>
-                            <h5>stand alone</h5>
-                            <p>
-                                Sunt explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.
-                            </p>
+                            <h3><Link to="/">App Development</Link></h3>
+                            <h5>Learning</h5>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -64,11 +43,8 @@ class Service_List extends React.Component{
                             <div className="i_div">
                                 <i className="icon icon-Share"></i>
                             </div>
-                            <h3><Link to="/">Social Media</Link></h3>
-                            <h5>digital product</h5>
-                            <p>
-                                Sunt explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.
-                            </p>
+                            <h3><Link to="/">Digital Marketing</Link></h3>
+                            <h5>Social Media</h5>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -76,11 +52,8 @@ class Service_List extends React.Component{
                             <div className="i_div">
                                 <i className="icon icon-ChartUp"></i>
                             </div>
-                            <h3><Link to="/">Search Engine</Link></h3>
-                            <h5>page rank</h5>
-                            <p>
-                                Sunt explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.
-                            </p>
+                            <h3><Link to="/">Search Engine Optimization</Link></h3>
+                            <h5>SEO</h5>
                         </div>
                     </div>
                 </div>
@@ -89,4 +62,4 @@ class Service_List extends React.Component{
     }
 }
 
-export default Service_List;
+export default ServiceList;

@@ -17,9 +17,9 @@ class ProfileSidebar extends React.Component{
                             <svg className="svg2" preserveAspectRatio="none" viewBox="0 0 100 120">
                                 <polygon points="0 20, 100 20, 15 120" opacity=".8"></polygon>
                             </svg>
-                            <div className="psContent">
-                                <h3>Sabbir Ahmed</h3>
-                                <span>Web Developer</span>
+                            <div className="psContent" >
+                                <h3 style={{color: '#00000'}}>Sabbir Ahmed</h3>
+                                <span style={{color: '#00000'}}>Web Developer</span>
                             </div>
                         </div>
                         <div className="psPhoto">
@@ -43,25 +43,25 @@ class ProfileSidebar extends React.Component{
                             </div>
                         </div>
                         <div className="psSkills">
-                            <div className="pssBox" data-count="85">
-                                <div className="pssbCount">85.</div>
+                            <div className="pssBox" data-count="82">
+                                <div className="pssbCount">82.</div>
                                 <h5>Backend Development</h5>
                                 <div className="pssbBars">
-                                    <div className="pssbBar" style={{width: '85%'}}></div>
+                                    <div className="pssbBar" style={{width: '82%'}}></div>
                                 </div>
                             </div>
-                            <div className="pssBox" data-count="92">
-                                <div className="pssbCount">92.</div>
+                            <div className="pssBox" data-count="75">
+                                <div className="pssbCount">75.</div>
                                 <h5>Frontend Development</h5>
                                 <div className="pssbBars">
-                                    <div className="pssbBar gr2" style={{width: '92%'}}></div>
+                                    <div className="pssbBar gr2" style={{width: '75%'}}></div>
                                 </div>
                             </div>
-                            <div className="pssBox" data-count="71">
-                                <div className="pssbCount">71.</div>
-                                <h5>Illustration</h5>
+                            <div className="pssBox" data-count="90">
+                                <div className="pssbCount">90.</div>
+                                <h5>UI UX</h5>
                                 <div className="pssbBars">
-                                    <div className="pssbBar gr3" style={{width: '71%'}}></div>
+                                    <div className="pssbBar gr3" style={{width: '90%'}}></div>
                                 </div>
                             </div>
                         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-class Price_Table extends React.Component{
+class PriceTable extends React.Component{
     render() {
         return(
             <>
@@ -62,4 +62,4 @@ class Price_Table extends React.Component{
     }
 }
 
-export default Price_Table;
+export default PriceTable;

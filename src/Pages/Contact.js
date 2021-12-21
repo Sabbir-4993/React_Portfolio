@@ -1,7 +1,7 @@
 import React from "react";
 import Map from "../Component/Map";
 import {ExternalLink} from "react-external-link";
-import {Contact_Form} from "../Component/Contact_Form";
+import {ContactForm} from "../Component/ContactForm";
 
 class Contact extends React.Component{
     render() {
@@ -18,7 +18,7 @@ class Contact extends React.Component{
                         <div className="row mb30">
                             <div className="col-lg-8">
                                 <div className="contact_form">
-                                    <Contact_Form />
+                                    <ContactForm />
                                 </div>
                             </div>
                             <div className="col-lg-4">

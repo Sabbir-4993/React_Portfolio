@@ -1,5 +1,6 @@
 import React from "react";
 import $ from 'jquery';
+import {ExternalLink} from "react-external-link";
 
 
 class BackToTop extends React.Component{
@@ -23,7 +24,7 @@ class BackToTop extends React.Component{
     render() {
         return(
             <>
-                <a href="#" id="backtotop"><i className="icofont-bubble-up"></i></a>
+                <ExternalLink href="#" id="backtotop"><i className="icofont-bubble-up"></i></ExternalLink>
             </>
         );
     }

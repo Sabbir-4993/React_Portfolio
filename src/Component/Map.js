@@ -3,7 +3,7 @@ import GoogleMapReact from 'google-map-react';
 
 import Marker from "../assets/images/marker.png";
 
-const MyLocation = ({ text }) => <div><img src={Marker} className="signImg" /><strong>{text}</strong></div>;
+const MyLocation = ({ text }) => <div><img src={Marker} className="signImg" alt="location" /><strong>{text}</strong></div>;
 
 class Map extends React.Component{
     static defaultProps = {

@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from "react";
 
-import Signature from "../../assets/images/home_01/3.png";
+import Signature from "../../assets/images/home_01/4.png";
 import {collection, getDocs} from "firebase/firestore";
 import {db} from "../../firebase-config";
 
-function Career_Objective() {
+function CareerObjective() {
     const [career, setBio] = useState([]);
     const careerCollectionRef = collection(db, "career_objective");
 
@@ -44,4 +44,4 @@ function Career_Objective() {
     );
 }
 
-export default Career_Objective;
+export default CareerObjective;
