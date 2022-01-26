@@ -8,7 +8,7 @@ const Items = ({items}) => {
             <div className="row" id="Grid">
                 {
                     items.map((elem) => {
-                        const {name, image, website, title} = elem;
+                        const {name, image, website, title, tools} = elem;
                         return(
                             <>
                                 <div className="col-lg-6 folio_effect">
@@ -22,7 +22,8 @@ const Items = ({items}) => {
                                         </ExternalLink>
                                         <div className="folio_content">
                                             <h3 className="folio_title"><ExternalLink href={website}>{name}</ExternalLink></h3>
-                                            <p className="folio_cat">{title}</p>
+                                            <p className="folio_cat">{title}</p> <br/>
+                                            <strong className="folio_cat">{tools}</strong>
                                         </div> <br/>
                                         <div className="fmfooter">
                                             <ExternalLink href={website} className="btt_link">
