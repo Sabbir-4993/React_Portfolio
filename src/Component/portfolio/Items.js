@@ -22,8 +22,14 @@ const Items = ({items}) => {
                                         </ExternalLink>
                                         <div className="folio_content">
                                             <h3 className="folio_title"><ExternalLink href={website}>{name}</ExternalLink></h3>
-                                            <p className="folio_cat">{title}</p> <br/>
-                                            <strong className="folio_cat">{tools}</strong>
+                                            <div className="row">
+                                                <div className="col-md-12">
+                                                    <p className="folio_cat">{title}</p>
+                                                </div>
+                                                <div className="col-md-12">
+                                                    <strong className="folio_cat">{tools}</strong>
+                                                </div>
+                                            </div>
                                         </div> <br/>
                                         <div className="fmfooter">
                                             <ExternalLink href={website} className="btt_link">
