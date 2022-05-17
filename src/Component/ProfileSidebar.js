@@ -66,8 +66,10 @@ class ProfileSidebar extends React.Component{
                             </div>
                         </div>
                         <div className="psFooter">
-                            <Link to="/" className="btt_btn only_icon btt_reverse"><span><i className="icon icon-DownloadCloud"></i></span></Link>
-                            <Link to="/contact" className="btt_btn"><span><i className="icon icon-Bag"></i> Hire Me</span></Link>
+                            {/* <Link to={{ pathname: "https://drive.google.com/file/d/1Mzor90veuC-RaM25fU7-NTEqprO9b3cy/view" }} target="_blank" className="btt_btn only_icon btt_reverse"><span><i className="icon icon-DownloadCloud"></i></span></Link> */}
+                            <ExternalLink href="https://drive.google.com/file/d/1Mzor90veuC-RaM25fU7-NTEqprO9b3cy/view" className="btt_btn "><span><i className="icon icon-Eye"></i>View CV</span></ExternalLink>
+                            {/* <Link to="" className="btt_btn only_icon btt_reverse"><span><i className="icon icon-DownloadCloud"></i></span></Link> */}
+                            <ExternalLink href="https://www.fiverr.com/sabbirahmed0507/" className="btt_btn"><span><i className="icon icon-Bag"></i>Hire Me</span></ExternalLink>
                         </div>
                     </div>
                 </div>
